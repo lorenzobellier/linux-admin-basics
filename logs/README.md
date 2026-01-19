@@ -1,22 +1,17 @@
-# Linux Admin Basics
+# Logs Directory
 
-This project contains basic Linux administration and security automation scripts.
+This directory is intended to store and document system logs generated during testing and simulations.
 
-## Features
-- User creation automation
-- Secure directory setup
-- Home directory backup
+## Purpose
+- Analyze system activity
+- Detect anomalies and potential security incidents
+- Practice log monitoring and incident response
 
-## Skills demonstrated
-- Linux system administration
-- Bash scripting
-- Basic security hardening
-- Backup automation
+## Examples of logs
+- Authentication logs (SSH login attempts)
+- System logs (syslog, journalctl)
+- Web server logs (access.log, error.log)
 
-## How to use
-1. Clone the repository
-2. Make scripts executable: chmod +x scripts/*.sh
-3. Run scripts as root
-
-## Author
-[lorenzobellier]
+## Notes
+Log files in this directory are for learning and demonstration purposes only.
+Sensitive information should never be stored in public repositories.
